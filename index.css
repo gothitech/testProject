@@ -1,0 +1,57 @@
+.text-slider {
+    box-sizing: border-box;
+    width: 100%;
+    background-color: black;
+    overflow: hidden;
+}
+
+.text-slider p {
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+    display: inline-block;
+    background-color: brown;
+    position: relative;
+    text-align: right;
+}
+
+.animate_text_slider__nown {
+    animation: anima 20s linear infinite;
+}
+
+@keyframes anima {
+
+    0% {
+        position: relative;
+        transform: translateX(-100%);
+        transition: 1s;
+    }
+    100%{
+        position: relative;
+        transform: translateX(100%);
+    }
+    
+}
+
+
+/* slider two */
+.text-slider1 {
+    position: relative;
+    top: 150px;
+    box-sizing: border-box;
+    background-color: brown;
+    width: 100%;
+    height: 200px;
+    /* overflow: hidden; */
+}
+
+.text-slider1 p {
+    width: fit-content;
+    font-size: 30px;
+    font-weight: 700;
+    background-color: burlywood;
+    position: relative;
+    /* float: right; */
+    /* transform: translateX(-702px); */
+    /* transform: translateX(100%); */
+}
